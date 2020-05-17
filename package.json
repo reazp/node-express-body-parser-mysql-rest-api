@@ -1,0 +1,16 @@
+{
+  "name": "phonebook",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "devserver": "nodemon ./index.js -e json,js,html"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "~4.16.1",
+    "lodash": "^4.17.15",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.2"
+  }
+}
